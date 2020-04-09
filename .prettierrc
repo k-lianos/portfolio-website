@@ -1,5 +1,3 @@
-# Prettier configuration
-
 printWidth: 140
 singleQuote: true
 tabWidth: 2
