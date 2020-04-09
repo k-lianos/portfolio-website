@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/k-lianos/portfolio-website#readme",
   "devDependencies": {
+    "husky": "^4.2.4",
+    "lint-staged": "^10.1.3",
     "prettier": "^2.0.4"
   }
 }
