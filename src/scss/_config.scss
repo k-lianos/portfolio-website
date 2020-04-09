@@ -1,0 +1,24 @@
+$colors: (
+  primary: rgb(240, 219, 77),
+  secondary: rgb(49, 51, 47),
+);
+
+$padding: 15px;
+$borders: 15px;
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  &::before,
+  &::after {
+    box-sizing: inherit;
+  }
+}

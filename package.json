@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "format": "prettier --write \"{,src/**/}*.{md,json,css,scss,html}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-lianos/portfolio-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k-lianos/portfolio-website/issues"
+  },
+  "homepage": "https://github.com/k-lianos/portfolio-website#readme",
+  "devDependencies": {
+    "prettier": "^2.0.4"
+  }
+}

@@ -1,0 +1,18 @@
+@import 'config';
+
+body {
+  background-color: color(secondary);
+  height: 100vh;
+  padding: 0 $padding;
+}
+
+.page-bg {
+  background-color: color(primary);
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
